@@ -1,11 +1,132 @@
 :root {
  
-  --primary-color: #0A0A0A;
-  --secondary-color: #3A3A3A;
-  --accent1-color: #C1B497;
-  --accent2-color: #4B3F72;
+  --primary-color: ;
+  --secondary-color: ;
+  --accent1-color: ;
+  --accent2-color: ;
+  --heading-font: ;
+  --paragraph-font: ;
+}
+html{
+  background-color: black;
+}
+nav{
+  display: grid;
+  grid-template-columns: 80px repeat(5 , 1fr);
+  background-color: grey; 
+}
+#first{
+  grid-column: 1 2;
+  width: 100%;
+  border: 1px black;
+  text-align: center;
+}
+#second{
+  grid-column: 2 3;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#third{
+  grid-column: 3 4;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#fourth{
+  grid-column: 4 5;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#fifth{
+  grid-column: 5 6;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#sixth{
+  grid-column: 6 7;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#h1{
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  font-size: 40px;
+  color: red;
+}
+main{
+  background-color: aqua;
+}
 
+* {box-sizing:border-box}
 
-  --heading-font: 'CORMORAND GARAMOND';
-  --paragraph-font: 'INTER';
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  padding: 10px 10px 0 10px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+footer{
+  background-color: chocolate;
+  text-align: center;
+  padding: 10px;
 }
