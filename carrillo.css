@@ -1,19 +1,20 @@
 :root {
- 
-  --primary-color: ;
-  --secondary-color: ;
-  --accent1-color: ;
-  --accent2-color: ;
+  --primary-color: #30333a;
+  --secondary-color: #72676f;
+  --accent1-color: #9a8d96;
+  --accent2-color: #b0a6a7;
+  --accent3-color: #b79d9b;
+  --accent4-color: #51403d;
   --heading-font: ;
   --paragraph-font: ;
 }
 html{
-  background-color: black;
+  background-color: #30333a; 
 }
 nav{
   display: grid;
-  grid-template-columns: 80px repeat(5 , 1fr);
-  background-color: grey; 
+  grid-template-columns: 100px repeat(3 , 1fr);
+  background-color: #72676f;
 }
 #first{
   grid-column: 1 2;
@@ -25,36 +26,28 @@ nav{
   grid-column: 2 3;
   border: 1px solid black;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  color: #b0a6a7;
+  text-decoration: none;
 }
 #third{
   grid-column: 3 4;
   border: 1px solid black;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  color: #b0a6a7;
+  text-decoration: none;
 }
 #fourth{
   grid-column: 4 5;
   border: 1px solid black;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
-}
-#fifth{
-  grid-column: 5 6;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-}
-#sixth{
-  grid-column: 6 7;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
+  color: #b0a6a7;
+  text-decoration: none;
 }
 #h1{
   text-align: center;
@@ -63,10 +56,10 @@ nav{
   left: 35%;
   top: 30%;
   font-size: 40px;
-  color: red;
+  color: #b0a6a7;
 }
 main{
-  background-color: aqua;
+  background-color: #b79d9b;
 }
 
 * {box-sizing:border-box}
@@ -126,7 +119,8 @@ main{
   to {opacity: 1}
 }
 footer{
-  background-color: chocolate;
+  background-color: #51403d;
   text-align: center;
   padding: 10px;
+  color: #9a8d96;
 }
