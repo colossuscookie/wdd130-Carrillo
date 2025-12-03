@@ -113,6 +113,43 @@ main{
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.button_row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto 60px;
+}
+.back_btn, .next_btn {
+  background-color: #30333a;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid #b79d9b;
+}
+.back_btn:hover, .next_btn:hover {
+  background-color: #b79d9b;
+  border-color: #30333a;
+}
+.gallery {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 50px auto 20px;
+}
+.picture_box {
+  height: 260px;
+  background-color: #30333a;
+  border: 2px solid #b79d9b;
+  border-radius: 10px;
+}
+.picture_box:hover {
+  border-color: #30333a;
+  background-color: #b79d9b;
+}
 
 @keyframes fade {
   from {opacity: .4}
