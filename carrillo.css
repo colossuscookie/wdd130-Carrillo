@@ -142,15 +142,14 @@ main{
   margin: 50px auto 20px;
   padding-top: 50px;
 }
-.picture_box {
-  height: 375px;
-  background-color: #30333a;
-  border: 2px solid #b79d9b;
-  border-radius: 10px;
+.picture_box img:hover {
+  border-color: #b79d9b;
 }
-.picture_box:hover {
-  border-color: #30333a;
-  background-color: #b79d9b;
+.picture_box img {
+  height: 375px;
+  width: 100%;
+  border: 2px solid #30333a;
+  border-radius: 10px;
 }
 
 @keyframes fade {
