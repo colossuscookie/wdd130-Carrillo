@@ -4,13 +4,14 @@
   --accent1-color: #9a8d96;
   --accent2-color: #b0a6a7;
   --accent3-color: #b79d9b;
-  --accent4-color: #51403d;
-  --heading-font: ;
-  --paragraph-font: ;
+  --accent4-color: #51403d; 
 }
 html{
   background-color: #30333a; 
 }
+a p h1 h2 div{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
 nav{
   display: grid;
   grid-template-columns: 100px repeat(3 , 1fr);
@@ -65,7 +66,7 @@ main{
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 500px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
   z-index: 0;
@@ -103,6 +104,7 @@ main{
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-bottom: 5%;
 }
 
 .active, .dot:hover {
